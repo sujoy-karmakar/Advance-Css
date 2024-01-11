@@ -1,0 +1,2 @@
+purpose of using the var() function in css :
+We use var to global property define. that means we set some property in root label and it's allows var to use that's property. Using var we don't need to rewrite those property don't need to chenge inside our class. so we set a property and reuse that's property many time whenever it will needed. like color, background color and others.

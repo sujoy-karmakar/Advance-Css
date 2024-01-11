@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container div {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 2px solid rgb(221, 208, 208);
+        border-right-color: rgb(1, 152, 252);
+        animation: buffer 3s linear infinite;
+    }
+
+    @keyframes buffer {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div></div>
+    </div>
+</body>
+
+</html>
